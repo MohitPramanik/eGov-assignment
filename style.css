@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 100%;
+    font-family: "DM Sans", sans-serif;
+}
+
+#header-top {
+    background-color: rgb(208, 249, 255);
+    height: 2rem;
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 0.9rem;
+        margin: 0 1rem;
+    }
+
+    select {
+        background-color: transparent;
+        color: inherit;
+        font-weight: bold;
+        border: none;
+        font-size: 0.9rem;
+    }
+}
+
+.min-h-max {
+    min-height: max-content;
+}
+
+.logo {
+    height: 2rem;
+}
+
+.navbar a {
+    color: black;
+    text-wrap: nowrap;
+}
+
+.text-indigo {
+    color: rgb(10, 1, 128);
+}
+
+.text-bg {
+    background-image: url(./assets/text-bg.png);
+    background-size: 100% 77%;
+    background-repeat: no-repeat;
+    width: max-content;
+}
+
+#hero-banner {
+    position: absolute;
+    width: 75%;
+
+    img {
+        float: right;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #hero-banner img {
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 767px) {
+    #hero-section {
+        text-align: center;
+    }
+
+    #hero-large-text {
+        margin: auto;
+    }
+
+    #hero-banner {
+        position: relative;
+        width: 100%;
+        height: 10rem !important;
+        object-fit: contain !important;
+
+        img {
+            width: 100% !important;
+            overflow: visible;
+        }
+    }
+}
+
+
+/* @media (min-width: 1200px)  */
+
+
+
+.card-btn-text {
+    font-size: 0.8rem;
+}
+
+#feature-card-section {
+    width: 90%;
+}
+
+.feature-card {
+    transform: translateY(-10%);
+    z-index: 1;
+    position: relative;
+    background: white;
+}
+
+.about-btn {
+    font-size: 0.8rem;
+    border-color: rgb(5, 0, 82);
+    color: rgb(5, 0, 82);
+}
+
+.bg-indigo {
+    background-color: rgb(5, 0, 82);
+}
+
+#cta-section {
+    width: min(100%, 45rem);
+}
+
+.digit-logo {
+    height: 4rem;
+}
+
+.explore-btn {
+    font-size: 0.9rem;
+}
+
+.explore-section-img {
+    transform: translateY(-10%)
+}
+
+#e-gov-card-section {
+    .card {
+        border: 0;
+        height: 100%;
+
+        .card-title {
+            min-height: 4rem;
+        }
+    }
+
+    .card-body {
+        background-color: #ecf6fb;
+
+        ul {
+            min-height: 1.2rem;
+
+            li {
+                font-size: 0.7rem;
+            }
+        }
+
+        .card-tag {
+            background-color: white;
+            border-radius: 5px;
+            font-size: 0.7rem;
+            padding: 4px 7px;
+        }
+    }
+}
+
+.see-all-btn {
+    font-size: 0.9rem;
+}
+
+#supporters-section {
+    img {
+        width: 15%;
+        min-width: 4rem;
+        object-fit: contain;
+    }
+}
+
+.footer-section {
+    background-color: #e9f0f5;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+/* Social Icons */
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(10, 1, 128);
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.social-icons a:hover {
+    background-color: rgb(10, 1, 128);
+    color: #fff;
+}
+
+.subscribe-box {
+    background: #fff;
+    border-radius: 30px;
+    overflow: hidden;
+    max-width: 350px;
+}
+
+.subscribe-box input {
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    box-shadow: none;
+}
+
+.subscribe-box input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.submit-btn {
+    background-color: #ff7a18;
+    border: none;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 0;
+}
+
+.submit-btn:hover {
+    background-color: #e5670f;
+}
+
+
+@media (max-width: 991px) {
+    #feature-section {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1199px) {
+    #feature-card-section {
+        text-align: center;
+
+        .btn-wrapper {
+            margin: auto;
+            margin-bottom: 1rem;
+            padding: 0 !important;
+        }
+
+        .card-wrapper {
+            height: 25rem;
+        }
+    }
+
+    .feature-card {
+        transform: translateY(-4%);
+    }
+}

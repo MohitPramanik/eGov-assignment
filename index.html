@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="header-top" class="text-primary">
+        <div class="d-flex justify-content-end align-items-center gap-4 h-100 container">
+            <a href="">Events</a>
+            <a href="">Contact Us</a>
+            <select name="" id="">
+                <option value="">English</option>
+                <option value="">Hindi</option>
+            </select>
+        </div>
+
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light position-sticky top-0 z-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/logo.png" alt="Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            About Us
+                            <i class="fa-solid fa-angle-down text-indigo "></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Areas of work
+                            <i class="fa-solid fa-angle-down text-indigo "></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Products & Solutions
+                            <i class="fa-solid fa-angle-down text-indigo "></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Our Platform
+                            <i class="fa-solid fa-angle-down text-indigo "></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Ecosystem
+                            <i class="fa-solid fa-angle-down text-indigo "></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Resources
+                            <i class="fa-solid fa-angle-down text-indigo "></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <button class="btn outline-none" type="button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero-section  -->
+    <section id="hero-section" class="position-relative vh-100 min-h-max">
+        <div class="container-md mx-auto row z-2 position-relative">
+            <div class="col-lg-5 col-md-6 text-indigo py-3">
+                <h1 class="display-5">20 years of digital transformation in public service delivery</h1>
+                <p id="hero-large-text" class="display-3 fw-semibold text-bg">It's possible.</p>
+                <p class="fs-6">Catalysts. Ecosystem enablers. Problem Solvers.
+                    At eGov, we're driven by the power of open digital infrastructure and ecosystems to enable
+                    governments deliver accessible, inclusive and transparent services to every citizen.</p>
+
+                <div class="mt-5">
+                    <button class="btn btn-primary border-0 rounded-5 px-3 py-2 me-2">Our Approach</button>
+                    <button class="btn btn-outline-primary rounded-5 px-3 py-2">Our Impact</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- hero-banner -->
+        <div id="hero-banner" class="bottom-0 end-0 z-1 h-100 w-100">
+            <img src="./assets/banner.png" alt="hero-banner" class="h-100 w-75 object-fit-cover">
+        </div>
+    </section>
+
+    <!-- Feature section -->
+    <section id="feature-section" class="min-vh-100 position-relative">
+
+        <!-- data section -->
+        <div class="vh-100 d-flex flex-column justify-content-between container py-5 z-2 position-relative text-white">
+            <div class="row">
+                <p class="col-lg-7 display-1">1,000,000,100+</p>
+                <p class="col-lg-4">Citizens availing public services through eGov's Digital Public Goods (DPG)</p>
+            </div>
+
+            <div class="row text-center my-4">
+                <div class="col-lg-4 col-sm-6">
+                    <p class="display-6 mb-0">1.1 Billion+</p>
+                    <p>Public services delivered</p>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <p class="display-6 mb-0">50+ partners</p>
+                    <p>From technology, <br>governments and NGOs</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/crowd.jpeg" alt="" class="position-absolute top-0 start-0 w-100 vh-100 object-fit-cover z-1"
+            style="filter: brightness(0.5);">
+
+        <!-- feature card section -->
+        <div class="container" id="feature-card-section">
+
+            <div class="row g-3 p-sm-5 shadow rounded-3 feature-card">
+
+                <div class="col-xl-6 text-indigo ">
+                    <p class="fs-2 fw-light mb-0 mt-5">Big problems need</p>
+                    <p class="display-5 fw-bold">bold approaches</p>
+
+                    <div class="mt-5 w-75 d-flex flex-column gap-2 pe-5 btn-wrapper">
+                        <button class="btn btn-primary rounded-5">
+                            Public Health
+                        </button>
+                        <button class="btn btn-outline-primary rounded-5">
+                            Public Finance
+                        </button>
+                        <button class="btn btn-outline-primary rounded-5">
+                            Local Governance
+                        </button>
+                        <button class="btn btn-outline-primary rounded-5">
+                            Water & Sanitization
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-sm-6 card-wrapper">
+                    <div class="h-100 position-relative rounded-3" style="background-color: rgb(0, 174, 255);">
+                        <img src="./assets/hospital-bed.png"
+                            class="h-100 w-100 object-fit-cover position-absolute top-0 start-0 z-1">
+
+                        <div class="z-2 position-relative py-3 px-4">
+                            <p class="text-white fw-bold display-5 mb-0">210+</p>
+                            <p class="w-50 text-indigo ">cities LIVE with 10BedICU across India</p>
+                            <button class="btn btn-light px-4 py-2 rounded-5 card-btn-text">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-sm-6 card-wrapper">
+                    <div class="h-100 position-relative rounded-3" style="background-color: rgb(0, 89, 255);">
+                        <img src="./assets/injection.png"
+                            class="h-100 w-100 object-fit-cover position-absolute top-0 start-0">
+
+                        <div class="z-2 position-relative py-3 px-4">
+                            <p class="text-white fw-bold display-5 mb-0">2 Bn</p>
+                            <p class="w-50 text-indigo">COVID-19 vaccination certificates issued</p>
+                            <button class="btn btn-light px-4 py-2 rounded-5 card-btn-text">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- CTA section -->
+    <section id="cta-section" class="min-vh-100 container-xl mx-auto mt-5 py-5 px-4 text-center text-indigo">
+        <h2 class="fs-1 fw-light mb-0">20 years of reimagining for citizens and</h2>
+        <h2 class="text-bg display-5 mx-auto fw-bold">sustaining change</h2>
+
+        <p class="mt-3">Technology is powerful, but is only one piece of the puzzle, when it comes to enhancing the
+            quality of life for every citizen. To have sustainable impact at scale, the collective energy of local
+            networks to solve local problems needs to be tapped into. Our partners & networks bring this collective
+            energy to life. The ecosystem already exists; our task is to facilitate and amplify their efforts. For 20
+            years, we’ve been turning small steps into lasting, meaningful change, so that no citizen is left behind.
+        </p>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="./assets/person-1.jpg" alt="Person" class="w-100">
+            </div>
+            <div class="col-sm-6">
+                <img src="./assets/person-2.png" alt="Person" class="w-100">
+            </div>
+        </div>
+
+        <button class="btn btn-outline-primary rounded-5 mt-5 px-3 py-2 about-btn">
+            About Us
+        </button>
+    </section>
+
+    <!-- Explore section -->
+    <section id="explore-section" class="vh-100 min-h-max bg-indigo">
+        <div class="container-xl">
+            <div class="row py-5 ps-4">
+
+                <div class="col-sm-6 text-white py-5">
+                    <img src="./assets/digit.png" alt="Digit logo" class="digit-logo">
+                    <h2 class="mb-1 mt-4 fw-light fs-1">Our open source</h2>
+                    <h2 class="fw-bold display-5">technology-for-good platform</h2>
+
+                    <p>DIGIT, short for Digital Infrastructure for Governance, Inclusion and Transformation is eGov's
+                        open-source platform with reusable building blocks and shared data registries that can be used
+                        to build solutions in multiple sectors.</p>
+
+                    <button class="btn btn-light rounded-5 text-indigo explore-btn px-3 py-2 mt-3">Explore the
+                        Platform</button>
+                </div>
+                <div class="col-sm-6">
+                    <img src="./assets/girl.png" alt="Girl" class="w-100 h-100 object-fit-contain explore-section-img mt-sm-0 mt-3">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- E-Gov card section -->
+    <section id="e-gov-card-section" class="container-xl px-4 py-5 min-vh-100 text-indigo">
+        <h2 class="fw-light mt-5 fs-1">Latest at <span class="fw-bold">eGov</span></h2>
+
+        <div class="d-flex gap-sm-3 gap-2 flex-wrap mt-4">
+            <button class="btn btn-primary rounded-5 px-sm-5 px-3 py-2">What's New</button>
+            <button class="btn btn-outline-primary rounded-5 px-sm-5 px-3 py-2">Articles</button>
+            <button class="btn btn-outline-primary rounded-5 px-sm-5 px-3 py-2">Whitepapers</button>
+            <button class="btn btn-outline-primary rounded-5 px-sm-5 px-3 py-2">Case Studies</button>
+            <button class="btn btn-outline-primary rounded-5 px-sm-5 px-3 py-2">Strategy Papers</button>
+            <button class="btn btn-outline-primary rounded-5 px-sm-5 px-3 py-2">News & Media</button>
+            <button class="btn btn-outline-primary rounded-5 px-sm-5 px-3 py-2">Videos</button>
+            <button class="btn btn-outline-primary rounded-5 px-sm-5 px-3 py-2">Newsletter</button>
+        </div>
+
+        <!-- cards section -->
+        <div class="row mt-5 gap-md-0 gap-3">
+
+            <!-- card 1 -->
+            <div class="col-md-4">
+                <div class="card rounded-4 overflow-hidden text-indigo">
+                    <img src="./assets/people-1.webp" class="card-img-top" alt="...">
+                    <div class="card-body p-4">
+                        <h5 class="card-title fs-6 fw-semibold">The Solver Network | A Policy Vision for Collaborative
+                            Public Problem-Solving</h5>
+                        <ul class="d-flex flex-wrap gap-4 mt-3 ps-3">
+                            <li>T Krishnakumar +2 More</li>
+                            <li>07 Apr 2026</li>
+                        </ul>
+
+                        <div class="d-flex gap-2 flex-wrap">
+                            <span class="card-tag">Local Governance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="col-md-4">
+                <div class="card rounded-4 overflow-hidden text-indigo">
+                    <img src="./assets/people-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body p-4">
+                        <h5 class="card-title fs-6 fw-semibold">State-led Urban Digital Transformation</h5>
+                        <ul class="d-flex flex-wrap gap-4 mt-3 ps-3">
+                            <li>Mathews P Joseph +2 More</li>
+                            <li>13 Mar 2026</li>
+                        </ul>
+
+                        <div class="d-flex gap-2 flex-wrap">
+                            <span class="card-tag">Odisha</span>
+                            <span class="card-tag">Kerala</span>
+                            <span class="card-tag">Local Governance</span>
+                            <span class="card-tag">Andhra Pradesh</span>
+                            <span class="card-tag">Punjab</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="col-md-4">
+                <div class="card rounded-4 overflow-hidden text-indigo">
+                    <img src="./assets/dotImg.jpg" class="card-img-top" alt="...">
+                    <div class="card-body p-4">
+                        <h5 class="card-title fs-6 fw-semibold">DOT – A DIGIT QUARTERLY NEWSLETTER</h5>
+                        <ul class="d-flex flex-wrap gap-4 mt-3 ps-3">
+                            <li>eGov Foundation +2 More</li>
+                            <li>20 Jan </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn btn-primary rounded-5 px-4 py-2 mt-4 see-all-btn">See all</button>
+    </section>
+
+    <section id="supporters-section" class="container">
+        <h2 class="fs-1 fw-light text-indigo">Our <span class="display-5 fw-bold">Supporters</span></h2>
+
+        <div class="d-flex column-gap-4 gap-2 justify-content-center flex-wrap mt-4">
+            <img src="./assets/supporter-1.png" alt="co-develop">
+            <img src="./assets/supporter-2.png" alt="bill melinda gates foundation">
+            <img src="./assets/supporter-3.png" alt="tata trusts">
+            <img src="./assets/supporter-4.png" alt="the global fund">
+            <img src="./assets/supporter-5.png" alt="nandan nilekani">
+        </div>
+    </section>
+
+    <footer class="footer-section pt-5 text-indigo">
+        <div class="container pb-3">
+            <div class="row">
+
+                <!-- Left Section -->
+                <div class="col-md-4 mb-4 fs-6">
+                    <img src="./assets/logo.png" alt="Logo" class="mb-3" style="max-width:120px;">
+                    <p>
+                        Catalysing digital transformation in public service delivery at speed & scale.
+                    </p>
+
+                    <div class="social-icons mt-3">
+                        <a href="#" class="fs-5"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="fs-5"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" class="fs-5"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="fs-5"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Useful Links -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fs-5 mb-3 fw-bold">Useful Links</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Our Impact</a></li>
+                                <li><a href="#">DIGIT Sandbox</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Our People</a></li>
+                                <li><a href="#">Financials</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Subscribe -->
+                <div class="col-md-4">
+                    <h5 class="fs-5 mb-3 fw-bold">Subscribe Now</h5>
+                    <p class="fs-6">
+                        Receive regular updates of our monthly newsletter DOT – in your inbox.
+                    </p>
+
+                    <div class="subscribe-box d-flex">
+                        <input type="email" class="form-control" placeholder="Enter Your Email">
+                        <button class="btn submit-btn">
+                            <i class="fas fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom py-3 bg-primary text-white text-center">
+            <div class="container-md d-flex justify-content-md-between justify-content-center align-items-center column-gap-4 flex-wrap">
+
+                <p class="mb-0 copyright">
+                    ©2024. eGov. All Rights Reserved.
+                </p>
+
+                <div class="footer-links">
+                    <a href="#" class="mb-0 me-4">Privacy Policy</a>
+                    <a href="#" class="mb-0">Terms and Conditions</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
